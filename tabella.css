@@ -1,0 +1,60 @@
+/* Titolo della tabella */
+.table-title {
+    color: #263238;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Stile della tabella */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid #263238;
+    margin: 0 auto;
+}
+
+/* Header della tabella */
+thead th {
+    background-color: #455a64;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Righe della tabella: alternanza colori */
+tbody tr:nth-child(odd) {
+    background-color: #eceff1;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b0bec5;
+}
+
+/* Ultima riga della tabella */
+tbody tr.totale {
+    background-color: #78909c;
+    font-weight: 800;
+}
+
+/* Celle della tabella */
+td {
+    padding: 8px;
+    text-align: right; /* Allinea i valori numerici a destra */
+}
+
+/* Colore specifico per la colonna Entrate */
+td.entrate {
+    color: #003300;
+}
+
+/* Colore specifico per la colonna Uscite */
+td.uscite {
+    color: #7f0000;
+}
+
+/* Colonne non numeriche allineate a sinistra */
+td:first-child {
+    text-align: left;
+}
